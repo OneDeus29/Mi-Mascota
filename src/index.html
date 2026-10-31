@@ -5,9 +5,65 @@
   <title>MiMascota</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="app/styles.css">
 </head>
 <body>
-  <app-root></app-root>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://media.istockphoto.com/id/1186734274/es/vector/imagen-vectorial-del-logotipo-de-perro-y-gato-en-blanco.jpg?s=612x612&w=0&k=20&c=IPXBZMIoDaKM6LwOhevJBJ62wPqDWvVJl_jLuz4bGD8=">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+      
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid p-5 bg-primary text-white text-center mi-banner ">
+  <h1>Mi Mascotas</h1>
+  <p>son lo mas lindo en el mundo!</p> 
+</div>
+  
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbguxZnO0k-5JXi2PdJYUuBKY8kr43gpLqLufNjbP2X03qd9IxwDWQebI&s=10" alt="veterinario 1" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://postgradoveterinaria.com/wp-content/uploads/veterinario-de-urgencias.jpg" alt="veterinario 2" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRzmbzKxCwcDPGJZyI0ALqutLmxXlkzWMj9fAamSUUT_4uTBHxn0VU_qE&s=10" alt="veterinario 3" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+
 </body>
 </html>
+
